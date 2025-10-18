@@ -3,7 +3,7 @@ import Signin from "../views/Signin.vue"
 
 const routes = [
     {
-        path:"/signin",
+        path:"/",
         name:"Signin",
         component:Signin
     }
