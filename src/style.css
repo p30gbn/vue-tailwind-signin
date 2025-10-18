@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bgpurple:#EDDDE7;
+    --color-lightbgpurple:#DFDDED;
+    --font-inter:"Inter";
+    --color-lightblue:#201E6D;
+    --color-btnpurple:#A22CFF;
+    --color-mildblue:#1C49E8;
+    --color-lighttext:#96A6B9
+}
