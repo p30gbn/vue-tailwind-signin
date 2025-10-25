@@ -7,5 +7,19 @@
     --color-lightblue:#201E6D;
     --color-btnpurple:#A22CFF;
     --color-mildblue:#1C49E8;
-    --color-lighttext:#96A6B9
+    --color-lighttext:#96A6B9;
+    --color-bgbilling:#E8E8FD;
+    --color-darkwhite:#F8F8FF;
+    --font-poppins:"Poppins";
+    --color-darkblue:#1A194D;
+    --color-lightgray:#62618F;
+    --color-mildOrange:#EE6338;
+    --color-grayborder:#CBCBD9;
+    --color-lightorange:#EE6338;
+    --color-darkorange:#EE4D38;
+}
+
+
+.menu-active{
+    @apply border-l-4 border-mildOrange rounded-xs pl-2
 }

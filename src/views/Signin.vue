@@ -31,7 +31,7 @@
                 </h3>
                 <div class="flex flex-row items-center justify-between">
                     <div class="flex items-center justify-center border border-zinc-300 font-inter text-sm text-mildblue px-3 py-2">
-                        <a href="#">Agency</a>
+                        <router-link :to="{name:'Billing'}">Agency</router-link>
                     </div>
                     <div class="flex items-center justify-center border border-zinc-300 font-inter text-sm text-mildblue px-3 py-2">
                         <a href="#">Brand</a>
@@ -49,7 +49,7 @@
 
 <script setup>
 import { ref } from 'vue';
-
+import {RouterLink} from "vue-router"
 
 const username = ref("")
 const password = ref("")
