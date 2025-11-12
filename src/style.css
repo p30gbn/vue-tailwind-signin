@@ -17,9 +17,37 @@
     --color-grayborder:#CBCBD9;
     --color-lightorange:#EE6338;
     --color-darkorange:#EE4D38;
+    --color-lightBlue2:#7B11F9;
+    --color-darkBlue2:#3636B2;
+    --font-rubik:"Rubik";
+    --font-gilroyBold:"Gilroy-Bold";
+    --font-gilroyRegular:"Gilroy-Regular";
+    --color-lightRed:#FF383C;
+    --color-grayieshWhite:#F4F7FA;
+    --color-softWhite:#FDFDFF;
+    --color-softBlack:#161C2D;
+    --color-lightRed2:#F64B4B;
+    --color-lightGreen:#68D585;
+    --color-carbonyBlue:#473BF0;
+    --color-lightNavyBlue:#313C59;
+    --color-darkNavyBlue:#161C2D;
+    --color-softGray:#57595E;
 }
 
 
 .menu-active{
     @apply border-l-4 border-mildOrange rounded-xs pl-2
+}
+
+
+@utility bg-wave {
+    background: url(./assets/Wave.svg) , linear-gradient(to right bottom,#7B11F9,#3636B2);
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+@utility bg-wave2 {
+    background: url(./assets/Wave 2.svg) , linear-gradient(to top right ,#161C2D,#313C59);
+    background-repeat:no-repeat;
+    background-position:top;
 }
